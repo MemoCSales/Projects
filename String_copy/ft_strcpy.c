@@ -1,15 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_strcpy.c                                        :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: mcruz-sa <mcruz-sa@student.42wolfsburg.    +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/03/12 03:10:46 by mcruz-sa          #+#    #+#             */
-/*   Updated: 2023/03/16 23:21:31 by mcruz-sa         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include <unistd.h>
 
 char	*ft_strcpy(char *dest, char *src)
@@ -45,16 +33,3 @@ int	main()
 	}
 	return (0);
 }
-
-/*
-int	main()
-{
-	char	src[] = "Hello World!";
-	char	dest[100];
-
-	strcpy (dest, src);
-	printf("src: %s\n", src);
-	printf("dest: %s\n", dest);
-	return (0);
-}
-*/
